@@ -1,0 +1,178 @@
+
+@media (min-width: 1000px) {
+
+  .nav-header
+  {
+    background-color: #000000 !important;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 15px;
+    transition:font-size 1s ease-out, width 1s ease-out;
+    height: 7% !important;
+
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+
+  .nav-header
+  {
+    background-color: #000000 !important;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 15px;
+    transition:font-size 1s ease-out, width 1s ease-out;
+
+  }
+
+
+}
+
+
+
+.btn:hover{
+
+  background-color: #AC222F;
+}
+
+.color_text_header:hover{
+
+  color: #AC222F !important;
+
+}
+
+.btn-color-header-phone{
+
+  background-color: white;
+}
+
+.navbar-toggler-icon {
+  fill: #f00;
+}
+
+.nav-header-change
+{
+  background-color: #ffffff !important;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 18px;
+
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .css-14tpw58, [data-css-14tpw58] {
+    width: calc(100vw + 240px);
+    padding: 15px 32px;
+  }
+}
+
+.css-14tpw58, [data-css-14tpw58] {
+  z-index: 1000;
+  position: fixed;
+  width: 100vw;
+  will-change: transform;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: transparent;
+  padding: 15px 8px 15px 32px;
+  transition: background 0.3s ease-out, width 0.2s ease-out;
+  background-color: #000000 !important;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  font-size: 16px;
+  transition:font-size 0.3s ease-out, width 0.2s ease-out;
+}
+
+.bouton{
+
+  border-radius: 30px;
+  padding: 0.7rem 0.75rem;
+  font-size: 0.975rem;
+  line-height: 1.9;
+  color: white;
+  transition:padding 0.3s ease-out, width 0.2s ease-out;
+  transition:font-size 0.3s ease-out, width 0.2s ease-out;
+  transition:line-height 0.3s ease-out, width 0.2s ease-out;
+
+
+}
+
+.bouton2{
+
+  border-radius: 30px;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  transition:padding 0.3s ease-out, width 0.2s ease-out;
+  transition:font-size 0.3s ease-out, width 0.2s ease-out;
+  transition:line-height 0.3s ease-out, width 0.2s ease-out;
+
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+
+.logo_normal{
+
+  width:40px;
+  height : 40px;
+  transition:width 0.3s ease-out, width 0.2s ease-out;
+  transition:height 0.3s ease-out, width 0.2s ease-out;
+}
+
+.logo_change{
+
+  width:60px;
+  height : 60px;
+  transition:width 0.3s ease-out, width 0.2s ease-out;
+  transition:height 0.3s ease-out, width 0.2s ease-out;
+}
+
+
+.navbar-toggler-change {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid transparent;
+  margin-right: 5%;
+  transition:padding 1s ease-out, width 1s ease-out;
+  transition:margin-right 1s ease-out, width 1s ease-out;
+
+
+  /* border-radius: 0.25rem; */
+}
+
+.navbar-toggler-normal {
+  padding: 0.10rem 0.20rem;
+  border: 1px solid transparent;
+  margin-right: 0%;
+
+  transition:padding 1s ease-out, width 1s ease-out;
+  transition:margin-right 1s ease-out, width 1s ease-out;
+
+
+  /* border-radius: 0.25rem; */
+}

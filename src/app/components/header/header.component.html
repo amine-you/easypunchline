@@ -1,0 +1,64 @@
+
+<nav class=" navbar  nav-header navbar-expand-lg navbar-light bg-light"
+     [ngClass]="{'css-14tpw58':!isSelected,'nav-header':isSelected }">
+
+  <a class="navbar-brand  " href="#"   >
+    <img src="../../../assets/image/logo_blanc.svg"
+
+
+         [ngClass]="{'logo_change':!isSelected,'logo_normal':isSelected }"
+
+         alt="" >
+  </a>
+
+  <button class="navbar-toggler " type="button" style="background-color: #ffffff;" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"  [ngClass]="{'navbar-toggler-change':!isSelected ,'navbar-toggler-normal':isSelected}">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent" >
+
+
+
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 " >
+      <li class="nav-item ">
+        <a class="nav-link disabled" href="#"></a>
+      </li>
+    </ul>
+
+
+
+    <form class="form-inline" >
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+
+        <li class="nav-item " >
+          <a class="nav-link color_text_header" href="#">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  color_text_header" routerLink="/easypunchline" >EasyPunchline</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  color_text_header" routerLink="/telechargement">Télécharger</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  color_text_header" routerLink="/actualite">Actualité</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-sm btn-outline-secondary" style="padding: 0.5rem 0.75rem;" type="button"
+
+                  [ngClass]="{'bouton':!isSelected ,'bouton2':isSelected}"
+           >Acceder à l'application</button>
+        </li>
+
+
+
+      </ul>
+    </form>
+  </div>
+</nav>
+
+
+
+
+

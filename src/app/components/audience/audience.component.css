@@ -1,0 +1,15 @@
+.card-audience{
+
+  max-width: none;
+  min-height: 200px;
+  padding: 30px 10px 30px;
+  border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .col-md-3{
+    padding: 3%;
+  }
+}
